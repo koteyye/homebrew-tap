@@ -4,28 +4,28 @@
 class Kotecode < Formula
   desc "AI coding agent based on OpenCode"
   homepage "https://github.com/koteyye/KoteCode"
-  version "0.1.0"
+  version "0.2.0"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/koteyye/KoteCode/releases/download/v0.1.0/kotecode-darwin-arm64.zip"
-      sha256 "28e6355dff438edeafa3d6cd3c51ecc4656994bb99d4ef40fc56929b321ce4ef"
+      url "https://github.com/koteyye/KoteCode/releases/download/v0.2.0/kotecode-darwin-arm64.zip"
+      sha256 "61279160af00577fe08cd7bb8e5ba057b8ef41441c7381f34989fc83e74a51d2"
     end
     on_intel do
-      url "https://github.com/koteyye/KoteCode/releases/download/v0.1.0/kotecode-darwin-x64.zip"
-      sha256 "77f7a3ba716349465d2bc19c711528872e6c4e9495255701d3860a7ea3892f85"
+      url "https://github.com/koteyye/KoteCode/releases/download/v0.2.0/kotecode-darwin-x64.zip"
+      sha256 "edb6fa8c1255fae6c0eca80ef31688b83cd2f968c41d2ac43fd02b010ece85c6"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/koteyye/KoteCode/releases/download/v0.1.0/kotecode-linux-arm64.zip"
-      sha256 "1ddd4301c68c58a5126576ee0879742949fa364d8864c3c8b92c9f28f5aff0ce"
+      url "https://github.com/koteyye/KoteCode/releases/download/v0.2.0/kotecode-linux-arm64.zip"
+      sha256 "d425ef7c66824695e48ce860507e5c5b4238dfd69912d7352b22fa572fa89b6d"
     end
     on_intel do
-      url "https://github.com/koteyye/KoteCode/releases/download/v0.1.0/kotecode-linux-x64.zip"
-      sha256 "3298320b427073e4e01e0eca9e28046d9fcbe274f1c37e99a9d7a00b8ca2c1be"
+      url "https://github.com/koteyye/KoteCode/releases/download/v0.2.0/kotecode-linux-x64.zip"
+      sha256 "7630c0b8817d09255e8f9f19abb153711572a79d96c93c313721dc045e7280c9"
     end
   end
 
